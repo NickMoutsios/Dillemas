@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_options"
+    android:background="@color/backgroundColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dillemas.DisplayOptionsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Διάλεξε κατηγορία"
+            android:textSize="35sp"
+            android:layout_marginTop="50dp"/>
+        <Button
+            android:id="@+id/helpButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:textSize="30sp"
+            android:onClick="getHelp"/>
+        <Button
+            android:id="@+id/goBackButton"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:onClick="goBackToMain" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/catButton1"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:alpha="0.8"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:onClick="chosenCategory"/>
+        <Button
+            android:id="@+id/catButton2"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:alpha="0.8"
+            android:layout_gravity="center_horizontal"
+            android:onClick="chosenCategory"/>
+        <Button
+            android:id="@+id/catButton3"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:alpha="0.8"
+            android:layout_gravity="center_horizontal"
+            android:onClick="chosenCategory"/>
+        <Button
+            android:id="@+id/catButton4"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:alpha="0.8"
+            android:layout_gravity="center_horizontal"
+            android:onClick="chosenCategory"/>
+        <Button
+            android:id="@+id/catButton5"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:alpha="0.8"
+            android:layout_gravity="center_horizontal"
+            android:onClick="chosenCategory"/>
+        <TextView
+            android:id="@+id/currentCategoryTextView"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@android:color/transparent"
+            android:alpha="0.8"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/nextToGameButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape_foroptions"
+            android:alpha="0.8"
+            android:layout_marginRight="13dp"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/next_text"
+            android:onClick="beginGame"/>
+
+    </RelativeLayout>
+</LinearLayout>
