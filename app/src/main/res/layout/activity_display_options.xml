@@ -17,9 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Διάλεξε κατηγορία"
-            android:textSize="35sp"
-            android:layout_marginTop="50dp"/>
+            android:text="@string/pickCategory"
+            android:textSize="39sp"
+            android:layout_marginTop="60dp"/>
         <Button
             android:id="@+id/helpButton"
             android:layout_width="50dp"
@@ -53,44 +53,49 @@
 
         <Button
             android:id="@+id/catButton1"
-            android:layout_width="230dp"
-            android:layout_height="45dp"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
             android:background="@drawable/buttonshape_foroptions"
             android:alpha="0.8"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
             android:onClick="chosenCategory"/>
         <Button
             android:id="@+id/catButton2"
-            android:layout_width="230dp"
-            android:layout_height="45dp"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
             android:background="@drawable/buttonshape_foroptions"
             android:alpha="0.8"
             android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
             android:onClick="chosenCategory"/>
         <Button
             android:id="@+id/catButton3"
-            android:layout_width="230dp"
-            android:layout_height="45dp"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
             android:background="@drawable/buttonshape_foroptions"
             android:alpha="0.8"
             android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
             android:onClick="chosenCategory"/>
         <Button
             android:id="@+id/catButton4"
-            android:layout_width="230dp"
-            android:layout_height="45dp"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
             android:background="@drawable/buttonshape_foroptions"
             android:alpha="0.8"
             android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
             android:onClick="chosenCategory"/>
         <Button
             android:id="@+id/catButton5"
-            android:layout_width="230dp"
-            android:layout_height="45dp"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
             android:background="@drawable/buttonshape_foroptions"
             android:alpha="0.8"
             android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
             android:onClick="chosenCategory"/>
         <TextView
             android:id="@+id/currentCategoryTextView"
@@ -100,25 +105,26 @@
             android:alpha="0.8"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:text=""
             android:textSize="30sp"
             android:textStyle="bold"/>
 
     </LinearLayout>
 
+
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp">
+        android:layout_height="match_parent">
 
         <Button
             android:id="@+id/nextToGameButton"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
             android:background="@drawable/buttonshape_foroptions"
             android:alpha="0.8"
-            android:layout_marginRight="13dp"
-            android:textSize="20sp"
+            android:textSize="25sp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="7dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:text="@string/next_text"

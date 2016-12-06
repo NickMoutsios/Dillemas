@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name"> Dillemas </string>
     <string name="next_text"> ΕΠΟΜΕΝΟ </string>
-    <string name="backgroundColor"> #7A8CA4 </string>
     <string name="categories">ΚΑΤΗΓΟΡΙΕΣ</string>
+    <string name="pickCategory">ΔΙΑΛΕΞΕ ΚΑΤΗΓΟΡΙΑ</string>
+    <string name="zero">0</string>
 </resources>
